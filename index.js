@@ -23,6 +23,6 @@ sdk.service((err, flex) => {
   }
 
   const flexFunctions = flex.functions;
-  flexFunctions.register("add", handlers.Add);
-  flexFunctions.register("multiply", handlers.Multiply);
+  flexFunctions.register("add", handlers.add);
+  flexFunctions.register("multiply", handlers.multiply);
 });
